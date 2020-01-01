@@ -8,8 +8,8 @@
 
 // Your code:
 
-const total = () => {
-  Array.prototype.map = total;
+const total = (string) => {
+  string.map = total;
 }
 return total
 
