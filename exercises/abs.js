@@ -11,6 +11,8 @@
 
 // Your code:
 
+const abs = (value) => value >= 0 ? value : - value
+
 //* Begin of tests
 const assert = require('assert');
 

@@ -8,6 +8,11 @@
 
 // Your code:
 
+const total = () => {
+  Array.prototype.map = total;
+}
+return total
+
 //* Begin of tests
 const assert = require('assert');
 
